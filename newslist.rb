@@ -2,7 +2,7 @@ require 'redis'
 
 class NewsList
 
-	REDIS_KEY = 'NEWS_XML'
+	REDIS_KEY = 'NEWS_XML :nx'
 	NUM_NEWS = 20
 	TRIM_THRESHOLD = 1000
 
